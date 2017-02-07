@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.nav {
+  color: white;
+}
+
+#logo {
+  color: white;
+}
