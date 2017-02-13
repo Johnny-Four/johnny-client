@@ -45,6 +45,12 @@
                 url: '/',
                 component: 'cameraView',
             })
+            .state({
+                name: 'drive',
+                parent: 'app',
+                url: '/drive',
+                component: 'driveView',
+            })
     }
 
 }());
