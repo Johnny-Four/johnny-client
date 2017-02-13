@@ -16,7 +16,7 @@ body {
 }
 
 .section {
-  height: 25em;
+  height: 29em;
   width: 100%;
 }
 
@@ -26,43 +26,44 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: .9
 }
 
 .inner-jumbotron {
-  color: white;
-  font-size: 3em;
-  font-family: 'Roboto', sans-serif;
+  margin-top: 2em;
 
 }
 
-.headline {
-  margin-left: 1em;
-}
-
-.inner-jumbotron img {
-  opacity: .65;
-  margin-bottom: 1em;
-  margin-top: .75em;
+#robot {
+  opacity: .8;
+  width: 85%;
 }
 
 .headline h2 {
-  margin-top: 1.3em;
-  margin-bottom: .35em;
+  font-size: 4.9em;
+  color: white;
   font-family: 'Monda', sans-serif;
   line-height: 1.2em;
-  opacity: .65
-
+  opacity: .9;
+  text-align: right;
+  padding-top: .2em;
+  padding-right: .5em;
+  padding-left: .5em;
 }
 
 #try-it {
-  margin-left: 1.75em;
-  width: 10em;
-  height: 1.5em;
-  font-size: .74em;
+  width: 35%;
+  margin: 0;
+  margin-top: 1.2em;
+  height: 2em;
+  font-size: 1em;
   font-family: 'Monda', sans-serif;
 }
 
 .about {
   font-size: 2em;
-  padding-left: 2.3em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
   padding-top: 1em;
+  line-height: 2em;
+}
