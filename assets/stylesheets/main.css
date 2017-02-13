@@ -22,6 +22,9 @@ body {
 
 .jumbotron {
   background: url(http://img03.deviantart.net/db0b/i/2005/045/b/0/flying_through_space_by_alienpickles.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -56,4 +59,10 @@ body {
   width: 10em;
   height: 1.5em;
   font-size: .74em;
+  font-family: 'Monda', sans-serif;
 }
+
+.about {
+  font-size: 2em;
+  padding-left: 2.3em;
+  padding-top: 1em;

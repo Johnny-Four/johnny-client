@@ -67,31 +67,10 @@
             .definePalette('customWarn',
                 customWarn);
 
-        var customBackground = {
-            '50': '#f6dcb8',
-            '100': '#f3d1a2',
-            '200': '#f0c68b',
-            '300': '#eeba74',
-            '400': '#ebaf5e',
-            '500': '#E8A447',
-            '600': '#e59930',
-            '700': '#e08d1c',
-            '800': '#c97f19',
-            '900': '#b37116',
-            'A100': '#f9e7cf',
-            'A200': '#fcf2e6',
-            'A400': '#fffefc',
-            'A700': '#9c6214'
-        };
-        $mdThemingProvider
-            .definePalette('customBackground',
-                customBackground);
-
         $mdThemingProvider.theme('default')
             .primaryPalette('customPrimary')
             .accentPalette('customAccent')
             .warnPalette('customWarn')
-            .backgroundPalette('customBackground')
 
         $stateProvider
             .state({
