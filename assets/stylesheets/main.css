@@ -16,7 +16,7 @@ body {
 }
 
 .section {
-  height: 29em;
+  height: 30em;
   width: 100%;
 }
 
@@ -29,14 +29,17 @@ body {
   opacity: .9
 }
 
-.inner-jumbotron {
-  margin-top: 2em;
-
-}
-
 #robot {
   opacity: .8;
-  width: 85%;
+  width: 75%;
+  padding-bottom: 3.75em;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 2em;
 }
 
 .headline h2 {
@@ -46,16 +49,19 @@ body {
   line-height: 1.2em;
   opacity: .9;
   text-align: right;
-  padding-top: .2em;
-  padding-right: .5em;
   padding-left: .5em;
+  margin-bottom: 0;
+}
+
+.try {
+  width: 100%;
 }
 
 #try-it {
   width: 35%;
-  margin: 0;
-  margin-top: 1.2em;
-  height: 2em;
+  margin-top: 2em;
+  margin-bottom:2em;
+  height: 3em;
   font-size: 1em;
   font-family: 'Monda', sans-serif;
 }
@@ -64,6 +70,10 @@ body {
   font-size: 2em;
   padding-left: 2.5em;
   padding-right: 2.5em;
-  padding-top: 1em;
+  padding-top: 1.5em;
   line-height: 2em;
+}
+
+.about h4 {
+  margin: 0;
 }
