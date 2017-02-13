@@ -14,3 +14,66 @@ body {
 #logo {
   color: white;
 }
+
+.section {
+  height: 30em;
+  width: 100%;
+}
+
+.jumbotron {
+  background: url(http://img03.deviantart.net/db0b/i/2005/045/b/0/flying_through_space_by_alienpickles.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9
+}
+
+#robot {
+  opacity: .8;
+  width: 75%;
+  padding-bottom: 3.75em;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 2em;
+}
+
+.headline h2 {
+  font-size: 4.9em;
+  color: white;
+  font-family: 'Monda', sans-serif;
+  line-height: 1.2em;
+  opacity: .9;
+  text-align: right;
+  padding-left: .5em;
+  margin-bottom: 0;
+}
+
+.try {
+  width: 100%;
+}
+
+#try-it {
+  width: 35%;
+  margin-top: 2em;
+  margin-bottom:2em;
+  height: 3em;
+  font-size: 1em;
+  font-family: 'Monda', sans-serif;
+}
+
+.about {
+  font-size: 2em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 1.5em;
+  line-height: 2em;
+}
+
+.about h4 {
+  margin: 0;
+}
