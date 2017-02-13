@@ -7,31 +7,91 @@
 
         $locationProvider.html5Mode(true)
 
-        var myTheme = {
-            '50': '#0900a1',
-            '100': '#080088',
-            '200': '#06006e',
-            '300': '#050055',
-            '400': '#03003b',
-            '500': '#020022',
-            '600': '#000008',
+        var customPrimary = {
+            '50': '#404040',
+            '100': '#333333',
+            '200': '#262626',
+            '300': '#1a1a1a',
+            '400': '#0d0d0d',
+            '500': '#000000',
+            '600': '#000000',
             '700': '#000000',
             '800': '#000000',
             '900': '#000000',
-            'A100': '#0b00bb',
-            'A200': '#0c00d4',
-            'A400': '#0e00ee',
+            'A100': '#4d4d4d',
+            'A200': '#595959',
+            'A400': '#666666',
             'A700': '#000000'
         };
         $mdThemingProvider
-            .definePalette('myTheme',
-                myTheme);
+            .definePalette('customPrimary',
+                customPrimary);
 
+        var customAccent = {
+            '50': '#0b0d27',
+            '100': '#10143b',
+            '200': '#151b50',
+            '300': '#1b2264',
+            '400': '#202878',
+            '500': '#262f8c',
+            '600': '#303db4',
+            '700': '#3644c8',
+            '800': '#4956ce',
+            '900': '#5d69d4',
+            'A100': '#303db4',
+            'A200': '#2B36A0',
+            'A400': '#262f8c',
+            'A700': '#727bd9'
+        };
         $mdThemingProvider
-            .theme('default')
-            .primaryPalette('myTheme')
-            .warnPalette('red')
-            .backgroundPalette('grey');
+            .definePalette('customAccent',
+                customAccent);
+
+        var customWarn = {
+            '50': '#c36662',
+            '100': '#bc5450',
+            '200': '#af4843',
+            '300': '#9d403c',
+            '400': '#8a3935',
+            '500': '#78312E',
+            '600': '#662927',
+            '700': '#532220',
+            '800': '#411a19',
+            '900': '#2e1312',
+            'A100': '#ca7875',
+            'A200': '#d18a87',
+            'A400': '#d89c9a',
+            'A700': '#1c0b0b'
+        };
+        $mdThemingProvider
+            .definePalette('customWarn',
+                customWarn);
+
+        var customBackground = {
+            '50': '#f6dcb8',
+            '100': '#f3d1a2',
+            '200': '#f0c68b',
+            '300': '#eeba74',
+            '400': '#ebaf5e',
+            '500': '#E8A447',
+            '600': '#e59930',
+            '700': '#e08d1c',
+            '800': '#c97f19',
+            '900': '#b37116',
+            'A100': '#f9e7cf',
+            'A200': '#fcf2e6',
+            'A400': '#fffefc',
+            'A700': '#9c6214'
+        };
+        $mdThemingProvider
+            .definePalette('customBackground',
+                customBackground);
+
+        $mdThemingProvider.theme('default')
+            .primaryPalette('customPrimary')
+            .accentPalette('customAccent')
+            .warnPalette('customWarn')
+            .backgroundPalette('customBackground')
 
         $stateProvider
             .state({
