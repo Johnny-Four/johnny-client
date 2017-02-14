@@ -66,6 +66,11 @@ body {
   font-family: 'Monda', sans-serif;
 }
 
+#try-it a {
+  text-decoration: none;
+  color: black;
+}
+
 .about {
   font-size: 2em;
   padding-left: 1.5em;
