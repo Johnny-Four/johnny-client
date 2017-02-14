@@ -1,12 +1,14 @@
 <md-content>
     <md-toolbar>
         <div class="md-toolbar-tools" layout-align="end center">
-            <h3 id="logo" flex="80">Johnny Four</h3>
-            <md-button aria-label="Login" class="nav">
-                Log In
+            <h3 id="logo" flex="80">
+                <a ui-sref="home">Johnny Four</a>
+            </h3>
+            <md-button class="md-primary md-raised nav" ng-click="$ctrl.showSignUp($event)" md-colors="{color: 'indigo-50'}">
+                Sign Up
             </md-button>
-            <md-button aria-label="Log Out" class="nav">
-                Log Out
+            <md-button class="md-primary md-raised nav" ng-click="$ctrl.showSignin($event)" md-colors="{color: 'red-A100'}">
+                Log In
             </md-button>
         </div>
     </md-toolbar>

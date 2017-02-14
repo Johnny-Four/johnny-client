@@ -107,3 +107,7 @@ body {
   text-align: center;
   width: 80%;
 }
+
+md-dialog {
+    width: 40em;
+}
